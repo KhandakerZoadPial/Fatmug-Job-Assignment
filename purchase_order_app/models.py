@@ -13,3 +13,4 @@ class PurchaseOrder(models.Model):
     quality_rating = models.FloatField(null=True)
     issue_date = models.DateTimeField()
     acknowledgment_date = models.DateTimeField(null=True)
+
